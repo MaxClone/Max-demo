@@ -5,4 +5,5 @@
 
 2、切换分支 git checkout 20170708maxk
 
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+3、提交分支 git push -u origin 20170717max
+	( 一般工作完成后，确认无误，再提交 )

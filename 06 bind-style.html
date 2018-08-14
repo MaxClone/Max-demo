@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>bind-style</title>
+	</head>
+	<style>
+		.container{
+			width:200px;
+			height:200px;
+			background:skyblue;
+		}
+	</style>
+	<body>
+		<script src='js/vue.js'></script>
+		<!--<div class="box">
+			<input type="number" v-model='w' />
+			<input type="number" v-model='h' />
+			<div class="container" :style="{width:w+'px',height:h+'px'}">
+			</div>
+		</div>
+		<script>
+			new Vue({
+				el:'.box',
+				data:{
+					h:"300",
+					w:"300"
+				}
+			})-->
+			
+		<div class="box">
+			<input type="number" v-model='w' />
+			<input type="number" v-model='h' />
+			<div class="container" :style='{width:w+"px",height:h+"px"}'></div>
+		</div>
+		<script>
+			new Vue({
+				el:'.box',
+				data:{
+					w:'300',
+					h:'300'
+				}
+			})
+		</script>			
+			
+			
+			
+			
+			
+			
+		</script>
+	</body>
+</html>
